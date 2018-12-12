@@ -1,0 +1,130 @@
+ html {
+        box-sizing: border-box;
+     }
+	 
+     *, *:before, *:after {
+        box-sizing: inherit;
+     }
+
+body{
+    background-image:url(skulls.jpg);
+    background-color: #65767A;
+}
+
+#container{
+
+	width: 1200px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+#navbar{
+
+	   width: 1200px;
+	   position: fixed;
+	   z-index: 1;
+
+}
+
+#logo{
+
+    float: left;
+	padding: 15px 100px 0px 40px;
+}
+
+
+#list li{
+
+ display: inline-block;
+ padding: 30px;
+ font-size: 20px;
+ float: right;
+ padding-right: 80px;
+}
+
+#list li a{
+
+       line-height: 70px;
+	   text-align: right;
+	   text-decoration: none;
+	   color: #3f3d5d;
+	   background-color:white;
+	   border-radius: 30%;
+	   padding: 10px;
+	   font-family: chalkboard;
+}
+
+ #list li a:hover {
+        color: #ECE210;
+        border-radius: 30%;
+        text-decoration: none;
+        background-color:#DB1A11; 
+     }
+
+
+ #about{
+ 	padding-top: 260px;
+ 	padding-bottom: 270px;
+ 	background-color: #C2D6DA; 
+ }
+
+#about h1{
+    text-align: center;
+	color: black;
+	font-size: 50px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	font-family:chalkboard;
+}
+
+
+#about p{
+	margin-left: 80px;
+	padding-right: 50px;
+	font-size: 25px;
+	display: inline;
+	padding-top: 40px;
+
+	
+}
+.separate{
+	width: 400px;
+	border-bottom: 1px solid grey;
+	margin-bottom: 80px;
+
+}
+
+#tomhanks img{
+	margin-left: 20px;
+	text-decoration: none;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+#footer {
+     	width: 1200px;
+	   height: 220px;
+	   background-color: #65767A  ;
+     	text-decoration: none;
+     	color: white;
+     	padding-left: 180px;
+     	padding-top: 70px;
+     	overflow: none;
+     }
+
+     #footer h1{
+
+     	font-size: 20px;
+     	padding-bottom: 30px;
+     }
+
+     .right{
+     	padding-left: 40%;
+     }
+
+
+
+     
